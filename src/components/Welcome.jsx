@@ -17,7 +17,7 @@ const setupTextHover = (container, type) => {
     if (!container) return () => {}; // Return no-op cleanup function
 
     const letters = container.querySelectorAll("span");
-    const {min, max, default: base} = FONT_WEIGHTS[type];
+    const {min, max, base} = FONT_WEIGHTS[type];
 
     const animateLetter = (letter, weight, duration = 0.25) => {
         return gsap.to(letter, {duration, ease: "power2.inOut", fontVariationSettings: `'wght' ${weight}`});
