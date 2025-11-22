@@ -1,4 +1,8 @@
-# React + Vite
+# macOS Style Developer Portfolio
+
+<div style={{align-items:center}}>
+    <img src="/public/readme.png" alt="Vite logo" width="1907">
+</div>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
