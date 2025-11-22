@@ -1,3 +1,9 @@
-import TerminalWindow from './Terminal'
+import Terminal from './Terminal'
+import Safari from './Safari'
+import Resume from './Resume'
+import Finder from './Finder'
+import Text from './Text'
+import ImageViewer from "#windows/ImageViewer.jsx";
+import Contact from "#windows/Contact.jsx";
 
-export {TerminalWindow}
+export {Terminal, Safari, Resume, Finder, Text, ImageViewer, Contact}
